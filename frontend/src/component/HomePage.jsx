@@ -81,7 +81,7 @@ export default function LoveCalculator() {
               Love Percentage Calculator
             </Typography>
             <TextField
-              label="Enter First Name"
+              label="Enter Your Name"
               variant="outlined"
               fullWidth
               value={name1}
@@ -89,7 +89,7 @@ export default function LoveCalculator() {
               sx={{ mt: 2, backgroundColor: "white", borderRadius: "8px" }}
             />
             <TextField
-              label="Enter Second Name"
+              label="Enter Your Partner Name"
               variant="outlined"
               fullWidth
               value={name2}
